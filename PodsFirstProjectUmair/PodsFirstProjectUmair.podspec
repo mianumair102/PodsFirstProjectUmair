@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
 
   # s.exclude_files = "Classes/Exclude"
 
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "Alamofire", "~> 4.0"
 
 end

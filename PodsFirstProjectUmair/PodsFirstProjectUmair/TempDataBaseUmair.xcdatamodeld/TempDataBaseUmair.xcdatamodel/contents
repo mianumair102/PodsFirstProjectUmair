@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Flights" representedClassName="Flights" syncable="YES" codeGenerationType="class">
+        <attribute name="flightName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Segments" representedClassName="Segments" syncable="YES" codeGenerationType="class">
+        <attribute name="segmentName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Flights" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="Segments" positionX="-54" positionY="-9" width="128" height="60"/>
+    </elements>
+</model>
