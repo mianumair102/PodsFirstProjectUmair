@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3E48BA612091BC57009E174A /* PodsFirstProjectUmair.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E48BA5F2091BC57009E174A /* PodsFirstProjectUmair.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E69D0F92091DFC400F6FB15 /* TempDataBaseUmair.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E69D0F72091DFC400F6FB15 /* TempDataBaseUmair.xcdatamodeld */; };
+		3E69D0FB2091E0FB00F6FB15 /* FirstPodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69D0FA2091E0FB00F6FB15 /* FirstPodVC.swift */; };
 		699F14BA24102B71B7E94D80 /* Pods_PodsFirstProjectUmair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CD5EE9473CE9A2E3CB8061 /* Pods_PodsFirstProjectUmair.framework */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +18,7 @@
 		3E48BA5F2091BC57009E174A /* PodsFirstProjectUmair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsFirstProjectUmair.h; sourceTree = "<group>"; };
 		3E48BA602091BC57009E174A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E69D0F82091DFC400F6FB15 /* TempDataBaseUmair.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TempDataBaseUmair.xcdatamodel; sourceTree = "<group>"; };
+		3E69D0FA2091E0FB00F6FB15 /* FirstPodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPodVC.swift; sourceTree = "<group>"; };
 		45CD5EE9473CE9A2E3CB8061 /* Pods_PodsFirstProjectUmair.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodsFirstProjectUmair.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96933755520154C4D526B1FE /* Pods-PodsFirstProjectUmair.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodsFirstProjectUmair.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodsFirstProjectUmair/Pods-PodsFirstProjectUmair.release.xcconfig"; sourceTree = "<group>"; };
 		FA2DBD57F321BCB045E9F6A3 /* Pods-PodsFirstProjectUmair.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodsFirstProjectUmair.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodsFirstProjectUmair/Pods-PodsFirstProjectUmair.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				3E48BA5F2091BC57009E174A /* PodsFirstProjectUmair.h */,
 				3E48BA602091BC57009E174A /* Info.plist */,
 				3E69D0F72091DFC400F6FB15 /* TempDataBaseUmair.xcdatamodeld */,
+				3E69D0FA2091E0FB00F6FB15 /* FirstPodVC.swift */,
 			);
 			path = PodsFirstProjectUmair;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 				TargetAttributes = {
 					3E48BA5B2091BC57009E174A = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -180,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E69D0F92091DFC400F6FB15 /* TempDataBaseUmair.xcdatamodeld in Sources */,
+				3E69D0FB2091E0FB00F6FB15 /* FirstPodVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA2DBD57F321BCB045E9F6A3 /* Pods-PodsFirstProjectUmair.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -327,6 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rozee.PodsFirstProjectUmair;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96933755520154C4D526B1FE /* Pods-PodsFirstProjectUmair.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
