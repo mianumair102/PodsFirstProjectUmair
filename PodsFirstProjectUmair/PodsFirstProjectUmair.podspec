@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PodsFirstProjectUmair"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Creating Pods for forst time."
   s.description  = "This is the detail description of this pods repository"
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "11.0"
 
 
-  s.source       = { :git => "https://github.com/mianumair102/PodsFirstProjectUmair.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/mianumair102/PodsFirstProjectUmair.git", :tag => "0.0.2" }
 
   s.source_files  = "PodsFirstProjectUmair/**/*.{h,m,swift}"
 
